@@ -1,0 +1,11 @@
+.vscode
+.tsdrc
+.typingsrc
+.build
+npm-debug.log
+typings
+node_modules
+jspm_packages
+app/**/*.js
+app/**/*.map
+main.js*
