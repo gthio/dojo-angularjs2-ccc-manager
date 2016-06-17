@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
-import { ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router';
+import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router-deprecated';
+
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 @Component({
@@ -11,6 +12,14 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     ROUTER_PROVIDERS
   ]
 })
+@RouteConfig([
+  {
+    path: 'app/dashboard',
+    name: 'Dashboard',
+    component: DashboardComponent,
+    useAsDefault: true
+  }
+])
 export class AppComponent { 
   title = 'CCC';
 }
