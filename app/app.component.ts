@@ -1,7 +1,16 @@
 import {Component} from '@angular/core';
+import { ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @Component({
-    selector: 'my-app',
-    template: '<h1>My First Angular 2 App</h1>'
+  selector: 'my-app',
+  templateUrl: 'app/app.component.html',  
+  styleUrls: ['app/app.component.css'],
+  directives: [ROUTER_DIRECTIVES],
+  providers: [
+    ROUTER_PROVIDERS
+  ]
 })
-export class AppComponent { }
+export class AppComponent { 
+  title = 'CCC';
+}
