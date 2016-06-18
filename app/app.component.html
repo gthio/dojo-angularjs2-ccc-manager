@@ -1,9 +1,16 @@
-<h1>
-  {{title}}
-</h1>
-
-<nav>
-  <a [routerLink]="['Dashboard']">Dashboard</a>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <nav>
+      <a [routerLink]="['Dashboard']">Dashboard</a>
+    </nav>
+  </div>
 </nav>
 
-<router-outlet></router-outlet>
+<main>
+  <div class="container">
+	  <router-outlet></router-outlet>
+  </div>
+</main>
+
+<footer>
+</footer>
