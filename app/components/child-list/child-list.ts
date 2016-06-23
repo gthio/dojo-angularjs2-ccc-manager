@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router-deprecated';
 
 import { DataService } from '../../services/data';
 import { IChild } from '../../interfaces';
@@ -16,8 +15,7 @@ export class ChildListComponent implements OnInit {
 
   children: IChild[] = [];
 
-  constructor(private _router: Router,
-    private dataService: DataService) {
+  constructor(private dataService: DataService) {
   }
   
   ngOnInit() {

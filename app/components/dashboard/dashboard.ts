@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router-deprecated';
 
 @Component({
   selector: 'my-dashboard',
@@ -9,7 +8,7 @@ import { Router } from '@angular/router-deprecated';
 })
 export class DashboardComponent implements OnInit {
 
-  constructor(private _router: Router) {
+  constructor() {
   }
 
   ngOnInit() {

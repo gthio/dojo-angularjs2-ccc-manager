@@ -1,8 +1,25 @@
 import {Component} from '@angular/core';
-import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router-deprecated';
+import { provideRouter, RouterConfig } from '@angular/router';
+import { ROUTER_DIRECTIVES } from '@angular/router';
+//import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router-deprecated';
 
 import { DashboardComponent } from './dashboard/dashboard';
 import { ChildListComponent } from './child-list/child-list';
+
+const appRoutes: RouterConfig = [
+  {
+    path: 'Dashboard',
+    //name: 'Dashboard',
+    component: DashboardComponent,
+    //useAsDefault: true
+  },
+  {
+    path: 'Children',
+    //name: 'Children',
+    component: ChildListComponent,
+    //useAsDefault: false
+  }
+];
 
 @Component({
   selector: 'my-app',
@@ -10,23 +27,9 @@ import { ChildListComponent } from './child-list/child-list';
   styleUrls: ['app/components/app.component.css'],
   directives: [ROUTER_DIRECTIVES],
   providers: [
-    ROUTER_PROVIDERS
+    provideRouter(appRoutes)
   ]
 })
-@RouteConfig([
-  {
-    path: 'Dashboard',
-    name: 'Dashboard',
-    component: DashboardComponent,
-    useAsDefault: true
-  },
-  {
-    path: 'Children',
-    name: 'Children',
-    component: ChildListComponent,
-    useAsDefault: false
-  }
-])
 export class AppComponent { 
   title = 'CCC';
 }

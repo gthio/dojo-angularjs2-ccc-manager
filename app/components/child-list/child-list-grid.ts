@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Router } from '@angular/router-deprecated';
 
 import { IChild } from '../../interfaces';
 
