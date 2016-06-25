@@ -3,8 +3,8 @@ import { provideRouter, RouterConfig } from '@angular/router';
 import { ROUTER_DIRECTIVES } from '@angular/router';
 //import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router-deprecated';
 
-import { DashboardComponent } from './dashboard/dashboard';
-import { ChildListComponent } from './child-list/child-list';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ChildListComponent } from './child-list/child-list.component';
 
 const appRoutes: RouterConfig = [
   {
