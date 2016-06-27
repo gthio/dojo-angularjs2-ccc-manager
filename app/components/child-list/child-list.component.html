@@ -1,1 +1,5 @@
-<child-list-grid [data]="children"></child-list-grid>
+<filter-textbox class="navbar-right"
+  (changed)="filterChanged($event)">
+</filter-textbox>
+    
+<child-list-grid [data]="filteredChildren"></child-list-grid>
