@@ -3,60 +3,70 @@
     "id": 1,
     "firstName": "ted",
     "lastName": "james",
-    "gender": "male"
+    "gender": "male",
+    "imagePath": "child.png"
   },
   {
     "id": 2,
     "firstName": "Michelle",
     "lastName": "Thompson",
-    "gender": "female"
+    "gender": "female",
+    "imagePath": "child.png"
   },
   {
     "id": 3,
     "firstName": "Zed",
     "lastName": "Bishop",
-    "gender": "male"
+    "gender": "male",
+    "imagePath": "child.png"
   },
   {
     "id": 4,
     "firstName": "Tina",
     "lastName": "Adams",
-    "gender": "female"
+    "gender": "female",
+    "imagePath": "child.png"
   },
   {
     "id": 5,
     "firstName": "Igor",
     "lastName": "Minar",
-    "gender": "male"
+    "gender": "male",
+    "imagePath": "child.png"
   },
   {
     "id": 6,
     "firstName": "Brad",
     "lastName": "Green",
-    "gender": "male"
+    "gender": "male",
+    "imagePath": "child.png"
   },
   {
     "id": 7,
     "firstName": "Misko",
     "lastName": "Hevery",
-    "gender": "male"
+    "gender": "male",
+    "imagePath": "child.png"
   },
   {
     "id": 8,
     "firstName": "Heedy",
     "lastName": "Wahlin",
-    "gender": "female"
+    "gender": "female",
+    "imagePath": "child.png"
   },
   {
     "id": 9,
     "firstName": "John",
     "lastName": "Papa",
-    "gender": "male"
+    "gender": "male",
+    "imagePath": "child.png"
   },
   {
     "id": 10,
     "firstName": "Tonya",
     "lastName": "Smith",
-    "gender": "female"
+    "gender": "female",
+    "imagePath": "child.png"
   }
 ]

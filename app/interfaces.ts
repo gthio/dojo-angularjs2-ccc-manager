@@ -3,4 +3,5 @@ export interface IChild {
     firstName: string;
     lastName: string;
     gender: string;
+    imagePath: string;
 }
